@@ -1,0 +1,233 @@
+body
+{
+    font-family: Roboto, Arial;
+
+}
+
+
+.imgback {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -3px;
+    align-items: center;
+    background-size: 100% 200px; /* Ajusta a largura para 100% da largura do elemento e define a altura como 300 pixels. */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+
+.text
+{
+    margin-top: 63px;
+    background-image: url(../icons/imagemFundo.jpg);
+    background-size: cover; /* Ajuste o tamanho da imagem para cobrir toda a área do contêiner */
+    background-position: center; /* Centralize a imagem no contêiner */
+    background-repeat: no-repeat; /* Evite que a imagem se repita */
+    text-align: center; /* Centralize o texto horizontalmente */
+    padding-top: 380px; /* Adicione preenchimento para separar o texto das bordas */
+    color: white; /* Cor do texto sobreposta */
+}
+
+.alinhado
+{
+    margin-bottom: 380px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.info
+{
+    display: grid;
+    grid-template-columns: 1fr;   
+}
+
+.paragrafo
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    margin: 2px auto; 
+    line-height: 25px;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(82, 80, 80);
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: -9px;
+}
+
+.titulo
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -2px;
+    color: rgb(14, 95, 122);
+}
+
+.info
+{
+    display: grid;
+    grid-template-columns: 1fr;   
+}
+
+.lista
+{
+    display: block;
+    margin-top: 2px;
+    line-height: 25px;
+    font-weight: bold;
+    color: rgb(82, 80, 80);
+    margin-bottom: -6px;
+}
+
+.JesusTeAma
+{
+
+    display: flex;
+    width: 100%;
+    height: 280px;
+    background-color:  rgb(40, 28, 58);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
+
+.subtitulo
+{
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+    margin-bottom: -2px;
+    color: rgb(14, 95, 122);   
+}
+
+.imagem-tipo
+{
+    position: relative;
+    margin-bottom: -20px;
+}
+
+.imagem
+{
+    width: 100%;
+    height: 380px;
+    margin-bottom: 12px;
+    opacity: 0.9;
+}
+
+.image-grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.corpoImagem
+{
+    margin-bottom: 5px;
+    margin-right: 1px;
+}
+
+.imagem-tipo2
+{
+    height: 430px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+@media(min-width: 100px) and (max-width: 810px)
+{
+
+    .JesusTeAma
+    {
+        margin-top: 20px;
+        font-size: 32px;
+    }
+
+   .text
+   {
+        margin-top: -191px;
+        background-size: 100% 300px;
+        margin-bottom: -283px;
+   }
+
+    .alinhado
+    {
+        font-size: 21px;
+    }
+
+    .titulo
+    {
+        font-size: 26px;
+
+    }
+
+    .paragrafo
+    {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 380px)
+{
+    .imgback
+    {
+        margin-top: -21px;
+        padding-bottom: -100px; 
+    }
+
+    .paragrafo
+    {
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 6px;
+    }
+
+    .titulo
+    {
+        font-size:18px;
+    }
+
+    .subtitulo
+    {
+        font-size:18px;
+    }
+
+    .lista
+    {
+        font-size: 14px;
+        margin-bottom: -15px;
+    }
+
+    .image-grid
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .imagem
+    {
+        height: 180px;
+    }
+
+    .JesusTeAma
+    {
+        font-size: 16px;
+        height: 160px;
+    }
+
+
+    
+}

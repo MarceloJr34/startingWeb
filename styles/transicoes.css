@@ -1,0 +1,41 @@
+.imgback
+{
+    animation: fadeIn 2s linear;
+}
+
+
+@keyframes fadeIn
+{
+    from{opacity:0}
+    to{opacity:1} 
+}
+
+
+/* Define a animação de transição */
+@keyframes slideIn {
+    0% {
+        width: 50%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+/* Aplica a animação à classe .JesusTeAma */
+.JesusTeAma {
+    height: 200px;
+    animation: slideIn 2s linear;
+
+}
+
+.imagem
+{
+    transition: transform 0.2s;
+}
+
+.imagem:hover
+{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
