@@ -129,6 +129,11 @@
 
 @media(min-width: 100px) and (max-width: 810px)
 {
+     .mobile-menu
+    {
+        margin-left: 50%;
+        margin-bottom: 10px;
+    }
     
     .logo
     {
@@ -199,6 +204,11 @@
 
 @media(max-width: 329px)
 {
+    .mobile-menu
+    {
+        margin-left: 50%;
+        margin-bottom: 10px;
+    }
     .logo
     {   
         width: 100px;
