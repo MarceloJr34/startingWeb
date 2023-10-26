@@ -13,6 +13,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     z-index: 100;
+
 }
 
 
@@ -112,7 +113,6 @@
 .mobile-menu .nav-link
 {
     display: flex;
-    width: 160px;
     height: 25px;
     background-color: rgb(173, 58, 58);
     transform: skewX(-20deg);
@@ -120,20 +120,17 @@
     color: white;
     text-align: center;
     align-items: center;
+    margin-right: 23px;
     justify-content: center;
     margin-bottom: -15px;
     font-size: 17px;
-    margin-left: 30%;
     z-index: 300;
+  
 }
 
-@media(min-width: 100px) and (max-width: 810px)
+@media (min-width: 100px) and (max-width: 810px)
 {
-     .mobile-menu
-    {
-        margin-left: 50%;
-        margin-bottom: 10px;
-    }
+
     
     .logo
     {
@@ -204,11 +201,6 @@
 
 @media(max-width: 329px)
 {
-    .mobile-menu
-    {
-        margin-left: 50%;
-        margin-bottom: 10px;
-    }
     .logo
     {   
         width: 100px;
@@ -227,7 +219,8 @@
 
     .mobile-menu
     {
-        margin-left: -35%;
+    
+        margin-bottom: 10px;
     }
     
 }
