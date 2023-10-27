@@ -151,6 +151,11 @@ body
 @media(min-width: 100px) and (max-width: 810px)
 {
 
+    .imgback
+    {
+        margin-bottom: 4px;
+    }
+    
     .JesusTeAma
     {
         margin-top: 20px;
